@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10000dp"
+    android:paddingLeft="50dp"
+    android:paddingTop="100dp"
+    app:cardCornerRadius="50dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#755782">
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="787dp"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/surnametext"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:paddingLeft="0dp"
+            android:text="Surname"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:text="Gender:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/gendertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:paddingLeft="75dp"
+            android:text="Gender:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:text="Age:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/agetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:paddingLeft="50dp"
+            android:text="Age:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:text="PlaceOfStay:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/placetext"
+            android:layout_width="359dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="135dp"
+            android:paddingLeft="130dp"
+            android:text="PlaceOfStay:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="195dp"
+            android:text="Zones:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/zonestext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="195dp"
+            android:paddingLeft="75dp"
+            android:text="Zones:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:text="BloodGroup:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/bloodtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:paddingLeft="130dp"
+            android:text="BloodGroup:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:text="Mobile Number:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/phonetext"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:paddingLeft="160dp"
+            android:text="Mobile Number:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text="Attender:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/attendertext"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:paddingLeft="95dp"
+            android:text="Attender:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:text="Seeking Help for:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/helptext"
+            android:layout_width="354dp"
+
+            android:layout_height="51dp"
+            android:layout_marginTop="380dp"
+            android:text="Seeking Help for:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:text="SRF ID 13 Nos:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/SRFtext"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:paddingLeft="150dp"
+            android:text="SRF ID 13 Nos:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:text="BU Number:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/BUtext"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:paddingLeft="115dp"
+            android:text="BU Number:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:text="Dependents:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/dependentstext"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:paddingLeft="115dp"
+            android:text="Dependents:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="530dp"
+            android:text="Address:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/addresstext"
+            android:layout_width="341dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="560dp"
+
+            android:text="Address:"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="366dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="660dp"
+            android:text="Also help needed in:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="366dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="690dp"
+
+            android:id="@+id/AlsoHelpTextText"
+            android:text="Otherhelp:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

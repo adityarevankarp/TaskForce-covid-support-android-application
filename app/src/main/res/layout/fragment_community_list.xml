@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommunityListFragment"
+    android:background="@drawable/bgxxxhdpi">
+
+
+    <Button
+        android:id="@+id/JOINCommunityButton"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+
+        android:background="@drawable/custum_button"
+        android:text="Join Community"
+        android:textAllCaps="false"
+
+        android:textSize="25dp"
+        app:backgroundTint="#D68794"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592">
+
+    </Button>
+
+    <Button
+        android:id="@+id/CreateCommunityButton"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+
+        android:background="@drawable/custum_button"
+        android:text="Create Community!"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        app:backgroundTint="#D68794"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471">
+
+    </Button>
+
+    <Button
+        android:id="@+id/goToPublicCommunity"
+        android:layout_width="300dp"
+        android:layout_height="67dp"
+        android:text="Ask help in public community"
+
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:backgroundTint="#FF002A"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.34" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="190dp"
+        android:layout_height="140dp"
+        android:src="@drawable/handshake"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

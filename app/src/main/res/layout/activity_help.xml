@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HelpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="192dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:text="Details"
+                android:textStyle="bold"
+                android:textSize="25dp"
+
+                android:textColor="#616161
+"></TextView>
+
+            <EditText
+                android:id="@+id/editTextPatientName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/custum_edittext"
+                android:hint="  ಹೆಸರು / Name">
+
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+                android:id="@+id/editTextPatientSurname"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  ಉಪನಾಮ / Surname">
+
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <Spinner
+                android:id="@+id/spinnerGender"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+                android:id="@+id/editTextAge"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  ವಯಸ್ಸು / Age" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+                android:id="@+id/editTextPlaceOfStay"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  ಸ್ಥಳ / Place of Stay"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+
+                android:id="@+id/editTextAdress"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  ವಿಳಾಸ / Address "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zone:"
+                android:textSize="20dp"
+                android:paddingTop="10dp"></TextView>
+
+            <Spinner
+                android:id="@+id/spinnerZone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BloodGroup:"
+                android:textSize="20dp"
+                android:paddingTop="10dp"></TextView>
+            <Spinner
+                android:id="@+id/spinnerBloodGroup"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  ಮೊಬೈಲ್ ಸಂಖ್ಯೆ/Mobile Number (10 digit without space)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+                android:id="@+id/editTextAttender"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  ತುರ್ತು ಸಂಪರ್ಕ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ (Attendar)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+                android:id="@+id/editTextDependents"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  ಅವಲಂಬಿತರು / Dependents Eg. Son,wife"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Seeking Help In:"
+                android:textSize="20dp"
+                android:paddingTop="10dp"></TextView>
+
+           <Spinner
+                android:id="@+id/spinnerHelpRequiredOn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+                android:id="@+id/editTextSRFID"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  SRF ID 13 Nos (if already tested +ve)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+                android:id="@+id/editTextBUno"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  BU Number 6 digit (if already registered)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+            <EditText
+                android:background="@drawable/custum_edittext"
+                android:id="@+id/AlsoHelpText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="  Any other help required"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+
+
+            <Button
+
+                android:id="@+id/save"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/custum_button"
+                android:backgroundTint="#616161"
+                android:text="SaveDetails"
+                android:textAllCaps="false"
+                 />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

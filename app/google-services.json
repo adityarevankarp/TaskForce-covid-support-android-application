@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "918732600812",
+    "firebase_url": "https://taskforce-99fdf-default-rtdb.firebaseio.com",
+    "project_id": "taskforce-99fdf",
+    "storage_bucket": "taskforce-99fdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918732600812:android:978b5a41d08844ad183cc9",
+        "android_client_info": {
+          "package_name": "com.example.firbaserecycleractivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918732600812-97h6rc81huj8is46725uun3vn1m6ad3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firbaserecycleractivity",
+            "certificate_hash": "4a34b5eacc92fafa0a012aa65f14037214896509"
+          }
+        },
+        {
+          "client_id": "918732600812-tha305o88id4hdos0i7kevig1n3ubvm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa4tUK47RDHHf0BdFjUwR2QUt81S5W-IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918732600812-tha305o88id4hdos0i7kevig1n3ubvm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918732600812:android:381098401037f76c183cc9",
+        "android_client_info": {
+          "package_name": "com.example.taskforce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918732600812-puce0mkglt09g8vnr7gm4e5n6n8barb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taskforce",
+            "certificate_hash": "4a34b5eacc92fafa0a012aa65f14037214896509"
+          }
+        },
+        {
+          "client_id": "918732600812-tha305o88id4hdos0i7kevig1n3ubvm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa4tUK47RDHHf0BdFjUwR2QUt81S5W-IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918732600812-tha305o88id4hdos0i7kevig1n3ubvm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918732600812:android:90a4ca8e7623fee4183cc9",
+        "android_client_info": {
+          "package_name": "com.revankars.taskforce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918732600812-tha305o88id4hdos0i7kevig1n3ubvm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa4tUK47RDHHf0BdFjUwR2QUt81S5W-IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918732600812-tha305o88id4hdos0i7kevig1n3ubvm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

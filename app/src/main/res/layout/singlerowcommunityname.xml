@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10000dp"
+    android:paddingLeft="50dp"
+    android:paddingTop="100dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#D59BA5"
+
+    android:paddingRight="50dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/Communitynametextview"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="45dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="CommunityName"
+            android:textColor="@color/white"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="42dp"
+            android:layout_height="46dp"
+            android:paddingTop="7dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:paddingStart="15dp"
+            android:paddingLeft="15dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
